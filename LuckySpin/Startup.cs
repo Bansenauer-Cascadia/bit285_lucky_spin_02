@@ -11,6 +11,8 @@ namespace LuckySpin
         {
             //TODO: enable the AddController Service; also register your LuckyNumber class for DIJ
             services.AddControllers();
+            services.AddScoped<LuckyNumber>();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
